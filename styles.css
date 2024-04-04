@@ -1,26 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
     min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    top: 0;
     display: flex;
+    width: 100%;
+    height: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 1500px;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+nav li {
+    margin-right: 30px;
+    max-height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 body {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-    width: 80%;
     background-color: #212425;
 }
 
+.content {
+    width: 1500px;
+    max-width: 80%;
+}
+
 .panel {
-    margin-top: 50px;
+    margin-top: 10vh;
     display: flex;
     height: 80vh;
     width: 100%;
@@ -34,7 +72,7 @@ body {
 }
 
 .panel .body .side-bar {
-    width: 30%;
+    width: 25%;
     height: 100%;
     background-color: #33393C;
 }
@@ -120,17 +158,22 @@ body {
     color: white;
     font-size: 45px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .details .description {
+    margin-left: 5px;
+    line-height: 30px;
     font-size: 20px;
     color: #C9C9CA;
 }
 
 .details .subdesc {
+    margin-top: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     margin-left: 30px;
+    line-height: 25px;
 }
 
 .details button {
