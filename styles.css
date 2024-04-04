@@ -1,0 +1,156 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 80%;
+    background-color: #212425;
+}
+
+.panel {
+    margin-top: 50px;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+
+.panel .body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.panel .body .side-bar {
+    width: 30%;
+    height: 100%;
+    background-color: #33393C;
+}
+
+.panel .body .side-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.panel .body .side-bar li {
+    width: 100%;
+    padding: 5px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.panel .body .side-bar li:hover {
+    background-color: #282C2E;
+}
+
+.panel .body .side-bar a {
+    text-decoration: none;
+}
+
+.panel .body .side-bar a:hover {
+    color: white;
+}
+
+.panel .body .properties {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #282C2E;
+    flex-direction: row;
+}
+
+.order-list {
+    width: 45%;
+    height: 95%;
+    overflow-y: scroll;
+    margin: 20px;
+}
+
+.order-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-list li {
+    margin-right: 20px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-list li:hover {
+    background-color: #232728;
+}
+
+.order-list a {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.order-list .sub {
+    font-size: small;
+    color: #B2B3B4;
+}
+
+.details {
+    width: 100%;
+    padding: 30px;
+}
+
+.details .title {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.details .description {
+    font-size: 20px;
+    color: #C9C9CA;
+}
+
+.details .subdesc {
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.details button {
+    background-color: #33393C;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 150px;
+}
+
+.blue {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #76B5BA;
+    background-color: #282C2E;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #D9DADA;
+}
