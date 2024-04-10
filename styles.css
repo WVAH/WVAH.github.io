@@ -172,6 +172,13 @@ body {
     color: #C9C9CA;
 }
 
+.details .green {
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #41ff4b;
+}
+
 .details .subdesc {
     margin-top: 20px;
     color: white;
