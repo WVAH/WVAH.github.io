@@ -19,7 +19,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #33393C;
 }
 
 nav ul {
@@ -49,7 +49,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 60px;
-    background-color: #212425;
+    background-color: #1a1c1d;
 }
 
 .content {
@@ -82,25 +82,29 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0px 15px;
 }
 
-.panel .body .side-bar li {
+.panel .body .side-bar .li {
+    height: 100%;
     width: 100%;
-    padding: 5px;
     width: 100%;
-    margin-top: 15px;
+    color: #D9DADA;
+    padding: 15px 20px;
 }
 
-.panel .body .side-bar li:hover {
+.panel .body .side-bar .selected {
+    height: 100%;
+    width: 100%;
+    width: 100%;
+    padding: 15px 20px;
+
+    color: white;
     background-color: #282C2E;
+    border-bottom: 2px solid #76B5BA;
 }
 
-.panel .body .side-bar a {
-    text-decoration: none;
-}
-
-.panel .body .side-bar a:hover {
+.panel .body .side-bar .li:hover {
+    background-color: #282C2E;
     color: white;
 }
 
@@ -177,23 +181,17 @@ body {
 }
 
 .details button {
-    background-color: #33393C;
+    background-color: #3d4447;
     border: none;
     color: white;
     padding: 15px 30px;
     margin-top: 150px;
 }
 
-.blue {
-    padding-bottom: 5px;
-    border-bottom: 2px solid #76B5BA;
-    background-color: #282C2E;
+.details button:hover {
+    background-color: #51575a;
 }
 
 .white {
     color: white;
-}
-
-.gray {
-    color: #D9DADA;
 }
