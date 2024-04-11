@@ -53,8 +53,25 @@ body {
 }
 
 .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     width: 1500px;
     max-width: 80%;
+    height: 100%;
+}
+
+.maintitle {
+    margin-top: 100px;
+    color: white;
+    font-size: 50px;
+}
+
+.maintitle2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
 }
 
 .panel {
