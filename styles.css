@@ -168,21 +168,22 @@ body {
 .details .description {
     margin-left: 5px;
     line-height: 30px;
-    font-size: 20px;
-    color: #C9C9CA;
+    font-size: 18px;
+    color: #a0a0a0;
 }
 
 .details .green {
-    margin-left: 5px;
-    line-height: 30px;
-    font-size: 20px;
     color: #41ff4b;
+}
+
+.details .white {
+    color: #ffffff;
 }
 
 .details .subdesc {
     margin-top: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 30px;
     line-height: 25px;
 }
